@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\PE">
+      <UniqueIdentifier>{d1ee703b-565d-4b69-859b-6ee2ca686187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Task">
+      <UniqueIdentifier>{91feaab8-dbe4-452e-86a4-51e4e85da626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\user">
+      <UniqueIdentifier>{c70b9c83-5d73-417a-bc01-2ba7411b81ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ItemView">
+      <UniqueIdentifier>{7c829c2e-3012-43d0-bfcf-25bdb2308436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\source">
+      <UniqueIdentifier>{2a047081-0a8c-4a89-bc85-05ab7123fe72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ItemView">
+      <UniqueIdentifier>{18a71bd1-00d5-4931-addd-5d0d395664d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Task">
+      <UniqueIdentifier>{0df139bb-7ca1-492b-955b-2f67e2969b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\user">
+      <UniqueIdentifier>{b41e5607-59fd-46d9-ab28-eb28ceb543b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\source">
+      <UniqueIdentifier>{af64bdc4-9f15-4bc0-bba3-1a0a2b6f6b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PE">
+      <UniqueIdentifier>{b3d826f9-35b5-48a4-9f59-7b39466421f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AsmInject">
+      <UniqueIdentifier>{06ee0698-ed2c-46d0-a1df-365c3de804c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AsmInject">
+      <UniqueIdentifier>{71bfe5dd-12fb-4aa4-aedf-8f003779d595}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iPe.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="MDFive.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PageOne.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="PageTwo.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="PageThree.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="PageFour.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="PageFive.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUser.h">
+      <Filter>头文件\user</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteUser.h">
+      <Filter>头文件\user</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPro.h">
+      <Filter>头文件\ItemView</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgView.h">
+      <Filter>头文件\ItemView</Filter>
+    </ClInclude>
+    <ClInclude Include="PageSix.h">
+      <Filter>头文件\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="AAA.h">
+      <Filter>头文件\source</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\source</Filter>
+    </ClInclude>
+    <ClInclude Include="AAADlg.h">
+      <Filter>头文件\source</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\source</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\source</Filter>
+    </ClInclude>
+    <ClInclude Include="sViewHeap.h">
+      <Filter>头文件\ItemView</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPro2Dlg.h">
+      <Filter>头文件\ItemView</Filter>
+    </ClInclude>
+    <ClInclude Include="PeQuDuan.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PePosCalc.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeMainIndex.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeChongDW.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeDaoChu.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeDaoRu.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeDelay.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeTls.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeZiYuan.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="AsmGur.h">
+      <Filter>头文件\AsmInject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgView.cpp">
+      <Filter>源文件\ItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="PageOne.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTwo.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="PageThree.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="PageFour.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="PageFive.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="PageSix.cpp">
+      <Filter>源文件\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="AddUser.cpp">
+      <Filter>源文件\user</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPro.cpp">
+      <Filter>源文件\ItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="MDFive.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="iPe.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteUser.cpp">
+      <Filter>源文件\user</Filter>
+    </ClCompile>
+    <ClCompile Include="AAADlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AAA.cpp">
+      <Filter>源文件\source</Filter>
+    </ClCompile>
+    <ClCompile Include="sViewHeap.cpp">
+      <Filter>源文件\ItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPro2Dlg.cpp">
+      <Filter>源文件\ItemView</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\source</Filter>
+    </ClCompile>
+    <ClCompile Include="PeQuDuan.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PePosCalc.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeMainIndex.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeChongDW.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeDaoChu.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeDaoRu.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeDelay.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeZiYuan.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeTls.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AAA.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AAA.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AAA.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Tittle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
