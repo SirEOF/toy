@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\病毒查杀">
+      <UniqueIdentifier>{18ad4716-b6fd-484d-9170-f7bd1dac2864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Button">
+      <UniqueIdentifier>{ffe5a362-191f-4979-86a9-c200db419c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Button">
+      <UniqueIdentifier>{4aa24492-c81b-4373-b414-29ed60289001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\垃圾清理">
+      <UniqueIdentifier>{a0af2fc7-0e98-40a8-a471-c2485991280a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\垃圾清理">
+      <UniqueIdentifier>{ee0fc446-3828-4ce6-9724-dffdf61274ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\病毒查杀">
+      <UniqueIdentifier>{96e0d90b-c9ff-4be7-bb20-f7dbef31ea87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\软件管理">
+      <UniqueIdentifier>{aadca688-10ea-42ab-840a-59169770c106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\软件管理">
+      <UniqueIdentifier>{1815525e-1c02-4431-8c45-a413eba7b029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\系统服务">
+      <UniqueIdentifier>{7068c598-2ca6-4f89-9106-bd21344fe557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\系统服务">
+      <UniqueIdentifier>{236f0a25-8a92-49a8-89e5-a3ca2d9faa2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\网络监控">
+      <UniqueIdentifier>{8d739e82-d6c8-48c2-8b7b-8d28bacc0a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\网络监控">
+      <UniqueIdentifier>{9ebb492e-84d2-411c-82f5-e3b4ea721287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\主动防御">
+      <UniqueIdentifier>{31ea28bc-4088-4113-b0f5-3fc3852e8762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\主动防御">
+      <UniqueIdentifier>{61b5f990-18b4-4da9-a335-7d5093307d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\小火箭">
+      <UniqueIdentifier>{44435993-f618-42aa-ad0b-b1bebfdae4e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SharkGuard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SharkGuardDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnOne.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnTwo.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnThree.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnFour.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnFive.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnSix.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnSeven.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Exit.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Min.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="SysClean.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="recentFile.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="bwn.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Cookie.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Delete.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="LJClean.h">
+      <Filter>头文件\垃圾清理</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftMange.h">
+      <Filter>头文件\软件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件\软件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="SysServer.h">
+      <Filter>头文件\系统服务</Filter>
+    </ClInclude>
+    <ClInclude Include="SerList.h">
+      <Filter>头文件\系统服务</Filter>
+    </ClInclude>
+    <ClInclude Include="Qdshut.h">
+      <Filter>头文件\系统服务</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryCleanBtn.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="VsSelect.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="VsClear.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件\病毒查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMonitor.h">
+      <Filter>头文件\网络监控</Filter>
+    </ClInclude>
+    <ClInclude Include="Defend.h">
+      <Filter>头文件\主动防御</Filter>
+    </ClInclude>
+    <ClInclude Include="HackAv.h">
+      <Filter>头文件\病毒查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="memdc.h">
+      <Filter>头文件\网络监控</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnTrafficDraw.h">
+      <Filter>头文件\网络监控</Filter>
+    </ClInclude>
+    <ClInclude Include="mTraffic.h">
+      <Filter>头文件\网络监控</Filter>
+    </ClInclude>
+    <ClInclude Include="traffic_map.h">
+      <Filter>头文件\网络监控</Filter>
+    </ClInclude>
+    <ClInclude Include="ADOCoon.h">
+      <Filter>头文件\病毒查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnScan.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnDeclear.h">
+      <Filter>头文件\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>头文件\小火箭</Filter>
+    </ClInclude>
+    <ClInclude Include="ReDataEdit.h">
+      <Filter>头文件\病毒查杀</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SharkGuardDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnOne.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnTwo.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnThree.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnFour.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnFive.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnSix.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnSeven.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Min.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="SysClean.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="recentFile.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="bwn.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Cookie.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Delete.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="LJClean.cpp">
+      <Filter>源文件\垃圾清理</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>源文件\软件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SharkGuard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftMange.cpp">
+      <Filter>源文件\软件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SysServer.cpp">
+      <Filter>源文件\系统服务</Filter>
+    </ClCompile>
+    <ClCompile Include="SerList.cpp">
+      <Filter>源文件\系统服务</Filter>
+    </ClCompile>
+    <ClCompile Include="Qdshut.cpp">
+      <Filter>源文件\系统服务</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMonitor.cpp">
+      <Filter>源文件\网络监控</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryCleanBtn.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="VsSelect.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="VsClear.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="HackAv.cpp">
+      <Filter>源文件\病毒查杀</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件\病毒查杀</Filter>
+    </ClCompile>
+    <ClCompile Include="Defend.cpp">
+      <Filter>源文件\主动防御</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnTrafficDraw.cpp">
+      <Filter>源文件\网络监控</Filter>
+    </ClCompile>
+    <ClCompile Include="mTraffic.cpp">
+      <Filter>源文件\网络监控</Filter>
+    </ClCompile>
+    <ClCompile Include="traffic_map.cpp">
+      <Filter>源文件\网络监控</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ADOCoon.cpp">
+      <Filter>源文件\病毒查杀</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnScan.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnDeClear.cpp">
+      <Filter>源文件\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ReDataEdit.cpp">
+      <Filter>源文件\病毒查杀</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SharkGuard.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SharkGuard.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SharkGuard.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\skin1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\nomal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\unormal.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2A.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\3A.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\4A.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\5A.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\6A.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\7A.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Exit.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SeExit.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Min.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SeMin.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\appicon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\3B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\4B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\5B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\6B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\7B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap21.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Head.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap22.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Head2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_sys_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_sys_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_file_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_file_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_bwn_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_bwn_1_meitu_7_meitu_8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_Cookie_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap31.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_Cookie_1_meitu_9_meitu_10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_bwn_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_Delete_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\P2_Delete_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CleanMem.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CleanMem_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VsClear.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VsSelect.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VsSelect1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\VsClear1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rocker.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Declear.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Declear2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Scan.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Scan2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Net.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

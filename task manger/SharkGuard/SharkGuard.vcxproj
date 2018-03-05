@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1E5C11E-9630-426A-8F26-783943F0FE87}</ProjectGuid>
+    <RootNamespace>SharkGuard</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADOCoon.h" />
+    <ClInclude Include="BtnDeclear.h" />
+    <ClInclude Include="BtnFive.h" />
+    <ClInclude Include="BtnFour.h" />
+    <ClInclude Include="BtnOne.h" />
+    <ClInclude Include="BtnScan.h" />
+    <ClInclude Include="BtnSeven.h" />
+    <ClInclude Include="BtnSix.h" />
+    <ClInclude Include="BtnThree.h" />
+    <ClInclude Include="BtnTrafficDraw.h" />
+    <ClInclude Include="BtnTwo.h" />
+    <ClInclude Include="bwn.h" />
+    <ClInclude Include="Cookie.h" />
+    <ClInclude Include="Defend.h" />
+    <ClInclude Include="Delete.h" />
+    <ClInclude Include="Exit.h" />
+    <ClInclude Include="HackAv.h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="LJClean.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="memdc.h" />
+    <ClInclude Include="MemoryCleanBtn.h" />
+    <ClInclude Include="Min.h" />
+    <ClInclude Include="mTraffic.h" />
+    <ClInclude Include="NetMonitor.h" />
+    <ClInclude Include="Qdshut.h" />
+    <ClInclude Include="recentFile.h" />
+    <ClInclude Include="ReDataEdit.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Rocket.h" />
+    <ClInclude Include="SerList.h" />
+    <ClInclude Include="SharkGuard.h" />
+    <ClInclude Include="SharkGuardDlg.h" />
+    <ClInclude Include="SoftMange.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SysClean.h" />
+    <ClInclude Include="SysServer.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="traffic_map.h" />
+    <ClInclude Include="VsClear.h" />
+    <ClInclude Include="VsSelect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADOCoon.cpp" />
+    <ClCompile Include="BtnDeClear.cpp" />
+    <ClCompile Include="BtnFive.cpp" />
+    <ClCompile Include="BtnFour.cpp" />
+    <ClCompile Include="BtnOne.cpp" />
+    <ClCompile Include="BtnScan.cpp" />
+    <ClCompile Include="BtnSeven.cpp" />
+    <ClCompile Include="BtnSix.cpp" />
+    <ClCompile Include="BtnThree.cpp" />
+    <ClCompile Include="BtnTrafficDraw.cpp" />
+    <ClCompile Include="BtnTwo.cpp" />
+    <ClCompile Include="bwn.cpp" />
+    <ClCompile Include="Cookie.cpp" />
+    <ClCompile Include="Defend.cpp" />
+    <ClCompile Include="Delete.cpp" />
+    <ClCompile Include="Exit.cpp" />
+    <ClCompile Include="HackAv.cpp" />
+    <ClCompile Include="List.cpp" />
+    <ClCompile Include="LJClean.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="MemoryCleanBtn.cpp" />
+    <ClCompile Include="Min.cpp" />
+    <ClCompile Include="mTraffic.cpp" />
+    <ClCompile Include="NetMonitor.cpp" />
+    <ClCompile Include="Qdshut.cpp" />
+    <ClCompile Include="recentFile.cpp" />
+    <ClCompile Include="ReDataEdit.cpp" />
+    <ClCompile Include="Rocket.cpp" />
+    <ClCompile Include="SerList.cpp" />
+    <ClCompile Include="SharkGuard.cpp" />
+    <ClCompile Include="SharkGuardDlg.cpp" />
+    <ClCompile Include="SoftMange.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Head.cpp" />
+    <ClCompile Include="SysClean.cpp" />
+    <ClCompile Include="SysServer.cpp" />
+    <ClCompile Include="traffic_map.cpp" />
+    <ClCompile Include="VsClear.cpp" />
+    <ClCompile Include="VsSelect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SharkGuard.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource.hm" />
+    <None Include="res\SharkGuard.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\1.ico" />
+    <Image Include="res\2A.bmp" />
+    <Image Include="res\2B.bmp" />
+    <Image Include="res\3A.bmp" />
+    <Image Include="res\3B.bmp" />
+    <Image Include="res\4A.bmp" />
+    <Image Include="res\4B.bmp" />
+    <Image Include="res\5A.bmp" />
+    <Image Include="res\5B.bmp" />
+    <Image Include="res\6A.bmp" />
+    <Image Include="res\6B.bmp" />
+    <Image Include="res\7A.bmp" />
+    <Image Include="res\7B.bmp" />
+    <Image Include="res\appicon.ico" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap21.bmp" />
+    <Image Include="res\bitmap22.bmp" />
+    <Image Include="res\bitmap31.bmp" />
+    <Image Include="res\CleanMem.bmp" />
+    <Image Include="res\CleanMem_2.bmp" />
+    <Image Include="res\Declear.bmp" />
+    <Image Include="res\Declear2.bmp" />
+    <Image Include="res\Exit.bmp" />
+    <Image Include="res\Head.bmp" />
+    <Image Include="res\Head2.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\Main.bmp" />
+    <Image Include="res\Min.bmp" />
+    <Image Include="res\Net.bmp" />
+    <Image Include="res\nomal.bmp" />
+    <Image Include="res\P2.bmp" />
+    <Image Include="res\P2_bwn_1.bmp" />
+    <Image Include="res\P2_bwn_1_meitu_7_meitu_8.bmp" />
+    <Image Include="res\P2_bwn_2.bmp" />
+    <Image Include="res\P2_Cookie_1.bmp" />
+    <Image Include="res\P2_Cookie_1_meitu_9_meitu_10.bmp" />
+    <Image Include="res\P2_Delete_1.bmp" />
+    <Image Include="res\P2_Delete_2.bmp" />
+    <Image Include="res\P2_file_1.bmp" />
+    <Image Include="res\P2_file_2.bmp" />
+    <Image Include="res\P2_sys_1.bmp" />
+    <Image Include="res\P2_sys_2.bmp" />
+    <Image Include="res\Pc.bmp" />
+    <Image Include="res\rocker.bmp" />
+    <Image Include="res\Scan.bmp" />
+    <Image Include="res\Scan2.bmp" />
+    <Image Include="res\SeExit.bmp" />
+    <Image Include="res\SeMin.bmp" />
+    <Image Include="res\SharkGuard.ico" />
+    <Image Include="res\skin1.bmp" />
+    <Image Include="res\unormal.bmp" />
+    <Image Include="res\VsClear.bmp" />
+    <Image Include="res\VsClear1.bmp" />
+    <Image Include="res\VsSelect.bmp" />
+    <Image Include="res\VsSelect1.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SharkGuard.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
